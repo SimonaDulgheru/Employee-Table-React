@@ -19,8 +19,8 @@ function Table({ employees }) {
 					<Employee
 						id={employee.id}
 						key={employee.id}
-						first={employee.FirstName}
-						last={employee.LastName}
+						firstName={employee.firstName}
+						lastName={employee.lastName}
 						department={employee.department}
 						position={employee.position}
 						email={employee.email}

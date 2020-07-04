@@ -1,0 +1,50 @@
+[
+	{
+		"id": "1",
+		"FirstName": "Tanior",
+		"LastName": "Ahmed",
+		"department": "Information Technology",
+		"position": "Junior Web Developer",
+		"email": "tahmed@gmail.com"
+	},
+	{
+		"id": "2",
+		"FirstName": "Karen",
+		"LastName": "Smith",
+		"department": "Information Technology",
+		"position": "Mid Web Developer",
+		"email": "smithkaren@gmail.com"
+	},
+	{
+		"id": "3",
+		"FirstName": "Angela",
+		"LastName": "Amid",
+		"department": "Finance",
+		"position": "Accountant",
+		"email": "angelamid@gmail.com"
+	},
+	{
+		"id": "4",
+		"FirstName": "John",
+		"LastName": "Doe",
+		"department": "Engineering",
+		"position": "Lead Engineer",
+		"email": "johndoe@gmail.com"
+	},
+	{
+		"id": "5",
+		"FirstName": "Jennifer",
+		"LastName": "Taylor",
+		"department": "Engineering",
+		"position": "Junior Engineer",
+		"email": "jenT@gmail.com"
+	},
+	{
+		"id": "6",
+		"FirstName": "Emma",
+		"LastName": "Smith",
+		"department": "Software Development",
+		"position": "Intern",
+		"email": "emsmith@gmail.com"
+	}
+]

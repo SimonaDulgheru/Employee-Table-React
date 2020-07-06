@@ -3,8 +3,8 @@ import Employee from "../components/Employee";
 
 function Table({ employees }) {
 	return (
-		<table className="#">
-			<thead>
+		<table className="table">
+			<thead className="table-head">
 				<tr>
 					<th scope="col">Id</th>
 					<th scope="col">First Name</th>

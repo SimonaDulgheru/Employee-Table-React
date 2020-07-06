@@ -1,0 +1,32 @@
+@mixin searchMenu($display, $direction, $justify, $margin) {
+	display: $display;
+	flex-direction: $direction;
+	justify-content: $justify;
+	margin-bottom: $margin;
+}
+.search-menu {
+	@include searchMenu($displayFlex, row, space-between, 20px);
+	.search-input i {
+		position: absolute;
+	}
+
+	.search-input {
+		margin-bottom: 10px;
+	}
+
+	.icon {
+		padding: 10px;
+		min-width: 40px;
+		color: #808080;
+	}
+
+	.input-field {
+		width: 100%;
+		padding: 5px 35px 0;
+		text-align: left;
+	}
+
+	.input-field::placeholder {
+		font-weight: 600;
+	}
+}

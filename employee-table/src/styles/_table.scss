@@ -1,0 +1,45 @@
+@mixin Container($flex, $direction, $marginTop, $marginBottom) {
+	display: $flex;
+	flex-direction: $direction;
+	margin-top: $marginTop;
+	margin-bottom: $marginBottom;
+}
+
+.container {
+	@include Container($displayFlex, column, 100px, 200px);
+}
+
+@mixin Table($font, $border, $width) {
+	font-family: $font;
+	border-collapse: $border;
+	width: $width;
+}
+
+.table {
+	@include Table(Arial, collapse, 100%);
+
+	.table td,
+	.table th {
+		border: 1px solid #ddd;
+		padding: 8px;
+	}
+
+	.table-head {
+		background: $background;
+		color: $fontColor;
+	}
+
+	tbody tr:nth-child(even) {
+		background-color: #f2f2f2;
+	}
+
+	tbody tr:hover {
+		background: $background;
+	}
+
+	.table th {
+		padding: 12px 0;
+		font-size: 20px;
+		text-align: center;
+	}
+}

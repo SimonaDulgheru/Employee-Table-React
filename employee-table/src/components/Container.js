@@ -2,17 +2,13 @@ import React, { useState, useEffect } from "react";
 import DataApi from "../DataApi/DataApi.json";
 import Table from "../components/Table";
 import SearchMenu from "../components/SearchMenu";
-// import SearchEmployees from "../components/SearchEmployees";
 
 function Container() {
 	const [employees, setEmployees] = useState(DataApi);
-	const [search, setSearch] = useState();
+	const [search, setSearch] = useState("");
 
 	useEffect(() => {
-		if (!search) {
-			return;
-		}
-		// filterEmployee(search);
+		filterEmployee(search);
 	}, [search]);
 
 	const orderEmployee = (orderBy) => {
@@ -37,9 +33,8 @@ function Container() {
 					return employee;
 				}
 			}
-			return employee;
 		});
-		setEmployees(filteredEmployees, search);
+		setEmployees(filteredEmployees);
 	};
 
 	const handleInput = (e) => {

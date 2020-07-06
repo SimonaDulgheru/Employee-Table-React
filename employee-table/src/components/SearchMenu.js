@@ -4,14 +4,14 @@ import SearchEmployees from "../components/SearchEmployees";
 
 function SearchMenu({ employees, orderEmployee, filterEmployee, handleInput }) {
 	return (
-		<div className="#">
-			<div className="#">
+		<div className="search-menu">
+			<div className="dropdown">
 				<DropdownMenu
 					employees={employees}
 					orderEmployee={orderEmployee}
 				/>
 			</div>
-			<div className="#">
+			<div className="search-input">
 				<SearchEmployees
 					employees={employees}
 					filterEmployee={filterEmployee}

@@ -1,0 +1,46 @@
+@mixin Header(
+	$background,
+	$flex,
+	$height,
+	$width,
+	$color,
+	$margin,
+	$justifyContent,
+	$align
+) {
+	background: $background;
+	display: $flex;
+	height: $height;
+	width: $width;
+	color: $color;
+	margin-bottom: $margin;
+	justify-content: $justifyContent;
+	align-items: $align;
+}
+
+.header {
+	@include Header(
+		$background,
+		flex,
+		100px,
+		100%,
+		$fontColor,
+		100px,
+		center,
+		center
+	);
+	.fa-users {
+		margin-right: 20px;
+		color: rgb(197, 197, 197);
+	}
+}
+
+.btn {
+	background: $background;
+	color: rgb(197, 197, 197);
+	font-weight: 700;
+	&:hover {
+		background: #0182fa;
+		color: $fontColor;
+	}
+}

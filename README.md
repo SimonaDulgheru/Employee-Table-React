@@ -19,7 +19,7 @@ This is is a directory of company employees that is searchable and sortable by:
 
 The application is currently hosted on heroku, see Live Preview
 
-## [Live Preview]()
+## [Live Preview](https://employee-directory-sd.herokuapp.com/)
 
 ## Stack Used
 

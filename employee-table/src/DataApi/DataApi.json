@@ -10,10 +10,10 @@
 	{
 		"id": "2",
 		"firstName": "Karen",
-		"lastName": "Smith",
+		"lastName": "Bishop",
 		"department": "Information Technology",
 		"position": "Mid Web Developer",
-		"email": "smithkaren@gmail.com"
+		"email": "bishopkaren@gmail.com"
 	},
 	{
 		"id": "3",
@@ -46,5 +46,37 @@
 		"department": "Software Development",
 		"position": "Intern",
 		"email": "emsmith@gmail.com"
+	},
+	{
+		"id": "7",
+		"firstName": "Paula",
+		"lastName": "Mayor",
+		"department": "HR",
+		"position": "Consultant",
+		"email": "paula_mayor@gmail.com"
+	},
+	{
+		"id": "8",
+		"firstName": "Andy",
+		"lastName": "Fisher",
+		"department": "HR",
+		"position": "Recruiter",
+		"email": "fisherandy@gmail.com"
+	},
+	{
+		"id": "9",
+		"firstName": "Richard",
+		"lastName": "Parker",
+		"department": "Engineering",
+		"position": "Junior Engineer",
+		"email": "r_parker@gmail.com"
+	},
+	{
+		"id": "10",
+		"firstName": "Marry",
+		"lastName": "Hickman",
+		"department": "Engineering",
+		"position": "Senior Engineer",
+		"email": "marry_hickman@gmail.com"
 	}
 ]
